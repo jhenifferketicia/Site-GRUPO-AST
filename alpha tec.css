@@ -302,9 +302,17 @@ align: center;
 }
 
 p{
-	float: right;
+	float: top;
 	display: inline-block;
 	vertical-align: top;
-	color: aliceblue;
+	color: white;
+	font-family: 'Times New Roman';
+	font-display: block;
+	font-size: 12pt;
 	
+	
+}
+p:hover{
+	color: cornflowerblue;
+	cursor:block;
 }
