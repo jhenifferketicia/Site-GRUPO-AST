@@ -1,11 +1,11 @@
 /* CSS Document */
 body { 
-  width: 101%;
-  height: 40%;
+  width: 100.5%;
+  height: 100%;
   margin: 0px;
   background-color: #000000;
   padding: 0;
-  color: #000;
+  color: white;
   align-items: center;
   font: 12px 'Verdana', 'sans-serif';
 }
@@ -22,9 +22,8 @@ body {
 
 		}
 nav{
-	width: 95%;
+	width: 98%;
 	margin-top:50px;
-	
 	
 }
 
@@ -246,3 +245,66 @@ h1{
 	color:#E4171B;
 }
 
+.carrosel{
+	width:980px;
+	height: 450px;
+	outline:1px solid black;
+	overflow: hidden;
+	margin: 15px auto;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0,7);
+	
+}
+
+.carrosel ul{
+	display: flex;
+	list-style:none;
+	width: 700px;
+	height: 250px;
+}
+
+.carrosel li{
+	position: relative;
+	left: 10px;
+	animation: slide 15s infinite ease-out;
+}
+
+@keyframes slide{
+	0%{right: -2550px}
+	
+	60%{left: -2550px}
+	
+	
+	80%{left: -2550px}
+	
+	
+	100%{left: -2550px}
+}
+
+#meio{
+	background-color: white;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+	font-family: 'cambria';
+}
+
+h2{
+	color: black;
+	text-align: center;
+	border: none;
+}
+#meio:hover{
+	background-color: #2854A0;
+}
+#imagem{
+cursor: pointer;
+align: center;
+}
+
+p{
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+	color: aliceblue;
+	
+}
