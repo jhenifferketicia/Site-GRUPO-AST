@@ -1,0 +1,300 @@
+/* CSS Document */
+body { 
+  width: 101%;
+  height: 40%;
+  margin: 0px;
+  background-color: #000000;
+  padding: 0;
+  color: #000;
+  align-items: center;
+  font: 12px 'Verdana', 'sans-serif';
+}
+
+.barra {
+		background-color: #FFFFFF;
+		height: 100%;
+		transition: all .2% linear;
+		left:-200px;
+	    width: 25%;
+	    padding: 0px;
+		float: left;
+		display: block;
+
+		}
+nav{
+	width: 95%;
+	margin-top:50px;
+	
+	
+}
+
+nav a{
+	margin: 1px;
+	padding: 15px;
+	border-bottom: 1px solid;
+	text-align: center;
+	list-style-type: none;
+	
+}
+
+.link{
+	background-color: #AEAEAE;
+	padding: 25px;
+	color: white;
+	font-family: 'Times New Roman';
+	transition: all .2% linear;
+	
+	
+}
+
+.link:hover{
+	background-color: #020000;
+	
+
+}
+
+#check:checked ~ .barra{
+	transform: translatex(-800px);
+	transition: all .2% linear;
+	text-decoration: none;
+}
+
+#check:checked ~ .barra nav a .link{
+	transition-delay: .2%;
+	background: #333;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 8px;
+	display: block;
+	
+}
+
+#check{
+	display: none;
+	margin-top: 1px;
+	position: left;
+	width: 10px;
+	height: 10px;
+	padding: 0;
+	
+	
+}
+
+#icone{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	padding: 15px;
+	display: block;
+
+	
+}
+
+span:hover{
+	color:cornflowerblue;
+}
+*{
+	margin:10px;
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+	border-radius: solid;
+	font-weight: bold;
+	display: block;
+
+}
+
+h1:hover{
+	color: cornflowerblue;
+}
+
+.zoom {
+	overflow: hidden;
+	align: left;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.7s;
+	cursor: pointer;
+	border:solid, 5px;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.zoom2 {
+	overflow: hidden;
+	margin-rigth: 50%;
+	margin-top: 2%;
+	margin-left: %;
+}
+
+.zoom2 img {
+	max-width: 30%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.7s;
+	cursor: pointer;
+	border:solid, 1px;
+	
+	
+}
+
+.zoom2:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.zoom3 {
+	overflow: hidden;
+	margin-left: 35%;
+	margin-top: -7.5%;
+	margin-rigth: 55%;
+  
+	
+
+}
+
+.zoom3 img {
+	max-width: 50%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.7s;
+	cursor: pointer;
+	
+}
+
+.zoom3:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+@media screen and (min-width: 50px) {
+.full-width-img {
+margin: 5px;
+width: 100%;
+height: 100%;
+}
+}
+
+#divisao{
+	height: 10px;
+background-color: black;
+}
+
+h3{
+color: black;
+text-align: center;
+font-family: 'Cambria';
+	
+}
+.img-responsive{
+	cursor: pointer;
+	align: center;
+	display: block;
+}
+
+.email-form-title{
+	color: black;
+	font-family: 'cambria';
+}
+
+.email{
+	align-items: center;
+	 display: flex;
+    
+	 color: black;
+}
+
+button:hover{
+	background-color: cornflowerblue;
+	
+}
+label{
+	color: black;
+
+}
+
+fidelset{
+width: 100%; 
+ 
+}
+
+button{
+border:1px solid #FFFFFF;
+border-radius:15px;
+display:inline-block;
+cursor:pointer;
+font-family:'Cambria';
+font-weight:bold;
+background-color: #FF0004;
+color:white;
+font-size:13px;
+padding:6px 10px;
+text-decoration:none;
+}
+
+fieldset{
+        width: 30%;
+}
+      
+small{
+	color: black;
+	text-align: center;
+}
+section{
+	background-color: black;
+
+}
+
+footer{
+	background-color: white;
+    text-align: center;
+    padding: 40px;
+	height: 810px;
+}
+
+.rodape-prin
+{
+    background-color:  rgb(0, 0, 0);       
+    clear: both;
+    padding: 38px;         
+    color: rgb(250,255,250);
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+.icones-sociais
+{
+    display: block;
+    float: right;
+    width: 40px;
+    height: 10px;
+
+}
+
+.ui-select.medium {
+    padding: 12px;
+}
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0;
+}
+
+h1{
+	color:#E4171B;
+}
+
+@charset "utf-8";
+/* CSS Document */
+
