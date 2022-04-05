@@ -3,8 +3,20 @@ body {
 
   background-color: #000000;
   padding: 0;
+
   color: #000;
   font: 12px 'Verdana', 'sans-serif';
+}
+
+footer{
+	display: block;
+	width: 100%;
+	align-items: center;
+}
+.fidelset{
+	text-align: center;
+	width: 50px;
+    margin-left: 347px;
 }
 
 .grupo{
@@ -128,7 +140,7 @@ nav a{
 	color:black;
 	cursor: pointer;
 }
-.zoom3h3:hover{
+.zoom3 h3:hover{
 	color: #AEAEAE;
 }
 .zoom3 li:hover{
@@ -169,13 +181,16 @@ h1:hover{
 }
 
 .zoom img {
-	max-width: 100%;
+	width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.7s;
     cursor: pointer;
     border: solid, 5px;
     margin-left: 180px;
+	width: 350px;
+    height: 250px;
+	margin-top: 75px;
 }
 
 .zoom:hover img {
@@ -258,12 +273,12 @@ h2 #zoom3:hover{
 transform: scale(1.1);
 }
 
-@media screen and (min-width: 50px) {
+@media screen and (min-width: 768px) {
 .full-width-img {
-margin: 5px;
+margin: auto;
+height: 50%;
 width: 100%;
-height: 100%;
-}
+  }
 }
 
 #divisao{
@@ -279,13 +294,14 @@ font-family: 'Cambria';
 }
 .img-responsive{
 	cursor: pointer;
-	align: center;
+	
 	display: block;
 }
 
 .email-form-title{
 	color: black;
 	font-family: 'cambria';
+	font-size:  1rem;
 }
 
 .email{
@@ -296,13 +312,18 @@ font-family: 'Cambria';
 }
 
 .meio{
-	background-color: #FFFFFF;
     padding: 22px;
     margin-top: 200px;
-    margin-left: 0px;
-	width: 2100px;
+	width: auto;
+	margin-left: -15px;
+	background-color: #000;
 }
 
+.img footer{
+	margin: 55px;
+	width: 100%;
+	
+}
 li{
 	text-align: center;
 	margin-top: 10px;
@@ -346,8 +367,8 @@ text-decoration:none;
 }
 
 fieldset{
-		width: 50%;
-    margin-left: 450px;
+	width: 50%;
+    margin-left: 349px;
 }
       
 small{
@@ -367,7 +388,78 @@ footer{
     padding: 0px;
     height: 810px;
     width: 1500px;
-    margin-left: -20px;
+	margin-left: -15px;
+}
+
+.container{
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 20px;
+}
+
+
+.container .card{
+    position: relative;
+    padding: 15px;
+    width: 250px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.container .card .img{
+	font-size: 2rem;
+
+}
+
+
+.container .card .content{
+	padding: 5px;
+	text-align: center;
+}
+
+.container .card .content p{
+	color: #666;
+	transition: 0.5s;
+}
+
+.container .card .content a{
+	position: relative;
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #000;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	transition: 0.5s;
+	outline: none;
+	margin-top: 20px;
+}
+
+.container .card:hover{
+	background-color: white;
+	color: white;
+	margin-top: 30px;
+	box-shadow: 2px 20px 25px white;
+	border-color: black;
+}
+
+.container .card:hover .content p{
+	color: black;
+}
+
+.container .card:hover .content a{
+	color: black;
+	background-color: #AEAEAE;
 }
 
 .rodape-prin
@@ -384,8 +476,10 @@ footer{
 {
     display: block;
     float: right;
-    width: 40px;
+    width: 100%;
     height: 10px;
+	margin: 45px;
+    margin-left: -50px;
 
 }
 
@@ -399,9 +493,13 @@ footer{
 }
 
 h1{
-	color:#E4171B;
+	color: red;
 }
 
+.card h1{
+	color:#000;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .redes-sociais ul li {
 margin-left: 50%;
 list-style: none;
@@ -409,3 +507,4 @@ list-style: none;
 .redes-sociais {
 width: 100%;
 }
+
